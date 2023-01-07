@@ -1,0 +1,55 @@
+body,html {
+    background-color: #081530;
+    color: aliceblue;
+    overflow: hidden;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif ;
+}
+
+nav{
+    background-color: #205295;
+    font-size: 56;
+    overflow: hidden;
+    padding-left: 5px;
+}
+
+
+nav .icon{
+    height: 32px;
+    width: 32px;
+    border-radius: 12px;
+    object-fit: cover;
+    float:left; 
+    margin-right: 10px;
+}
+
+#title {
+    color: white;
+}
+
+nav .item {
+    font-size: 32px;
+    display: block;
+    color: #D3D3F9;
+    float: left;
+    padding: 18px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav .item:hover {
+    background-color: #144272;
+    transition: 0.3s;
+}
+
+
+
+section h2 {
+    margin: 20px;
+    font-size: 28px;
+}
+
+section ul {
+    list-style-type: circle;
+    font-size: 24px;
+}
